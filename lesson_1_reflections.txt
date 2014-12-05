@@ -1,0 +1,42 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was 
+introduced?
+
+A: It's obvious, isn't it? If something was working in previous version but it doesn't
+now, well that's because something we've changed. In order to get things to work again
+we need to remove the changes and to do that we have to be able to view differences
+between old version and new one.
+
+Q: How could having easy access to the entire history of a file make you a more efficient
+programmer in the long term?
+
+A: I think it saves me a lot of time, that I would spend trying to locate changes that caused
+unwanted behavior. Can't think of anything else for now.
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+A: When you have your changes saved for you automatically the snapshots can be 
+not completed logically so they can be useless at all. On the other hand when you 
+choose the time to commit if you choose wisely the versions can represent a logically
+complete image of project
+
+Q: Why do you think some version control systems, like Git, allow saving multiple files
+ in one commit, while others, like Google Docs, treat each file separately?
+
+A: I think it's because git is a programmers-oriented version cotrol system and in programming
+usually many files are highly dependant from other. So it is only rational to keep track of the
+whole project because changes in one file may affect not only this file but whole project.
+
+Q: How can you use the commands git log and git diff to view the history of files?
+
+A: The git log command shows history of commits but doesn't show any details of particular commit,
+while the git diff command compares two versions of the project and shows all changes that were made
+on the project (which line was deleted and which has been added).
+
+Q: How might using version control make you more confident to make changes that could break something?
+
+A: Knowing that I can go back to previous state where all was working fine at any moment making me more confident indeed.
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+
+A: My own project's version contol

@@ -2,6 +2,10 @@ Q: What happens when you initialize a repository? Why do you need to do it?
 
 A: Git creates a hidden folder where it stores all the metadata that needed for git to track changes in files. I need to do it to let git know that I want to start track changes of files in this directory.
 
-A: How is the staging area different from the working directory and the repository? What value do you think it offers?
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-Q: Staging area kinda lies in between working directory and repository. Files that are to be committed are stored there. It gives flexibility and freedom to choose what to commit.
+A: Staging area kinda lies in between working directory and repository. Files that are to be committed are stored there. It gives flexibility and freedom to choose what to commit.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: I can add files to staging area subsequently one by one and therefore commit changes in thoose files separatly. That's how I can make my commits logically independent.

@@ -17,3 +17,7 @@ A: As was shown in previous video fragment branches may come in handy when I wan
 Q: How do the diagrams help you visualize the branch structure?
 
 A: They really help!
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: As a result we will have all commits from both branches as though they were made in one branch. Commits will apear sorted by timestamp in git log and latest commit will be the merging commit  which will have two parents.  

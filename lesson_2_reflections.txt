@@ -9,3 +9,7 @@ A: Staging area kinda lies in between working directory and repository. Files th
 Q: How can you use the staging area to make sure you have one commit per logical change?
 
 A: I can add files to staging area subsequently one by one and therefore commit changes in thoose files separatly. That's how I can make my commits logically independent.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: As was shown in previous video fragment branches may come in handy when I want to try to add some new functionality and at the same time to have a snapshot of current perfectly working version of the project.

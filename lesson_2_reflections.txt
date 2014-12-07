@@ -21,3 +21,7 @@ A: They really help!
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 A: As a result we will have all commits from both branches as though they were made in one branch. Commits will apear sorted by timestamp in git log and latest commit will be the merging commit  which will have two parents.  
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Automatic merging is very convenient since git doing it silently and quickly and it's cool when git can do that, but unfortunately there is no way git could to it all the time because sometimes conflicts arise and you have to intervene to resolve them. That being said, it's not neccessary to always merge manually, but manual merge provides precision and accuracy that just can't be reached by technologies such as git (yet).

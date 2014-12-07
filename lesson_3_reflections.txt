@@ -11,3 +11,7 @@ A: I might not just be ready yet to see changes made by other contributors, I gu
 Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 A: I would make a new branch when I need to divide my project into separate streamlines to be able to switch between them and merge them if needed. I would use clone if I had my remote repo on GitHub created, but I'd like to edit code on my local machine. To do that I'd have to clone that repo to my local machine. I would fork a repo which isn's mine if I wanted to add or change something in existing project. I need to fork it (and make my own copy of this repo) because I can't change anything in this repo since it isn't mine.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: It's good to have it stored locally in case you need to work somewhere without connection to the Internet.
